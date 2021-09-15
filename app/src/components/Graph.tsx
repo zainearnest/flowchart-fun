@@ -244,9 +244,9 @@ function getCyStyleFromTheme(
     {
       selector: "node",
       style: {
-        backgroundColor: theme.background,
-        "border-color": theme.foreground,
-        color: theme.foreground,
+        backgroundColor: "#2d88d9",
+        "border-color": "#c3cfd9",
+        color: "white",
         label: "data(label)",
         "font-size": 10,
         "text-wrap": "wrap",
@@ -257,7 +257,9 @@ function getCyStyleFromTheme(
         // @ts-ignore
         "line-height": 1.25,
         "border-width": 1,
-        shape: "rectangle",
+        "border-radius": 5,
+        "box-shadow": "5px 5px",
+        shape: "round-rectangle",
         "font-family":
           "-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
         width: "data(width)",
@@ -271,12 +273,12 @@ function getCyStyleFromTheme(
         // @ts-ignore
         "loop-direction": "0deg",
         "loop-sweep": "20deg",
-        width: 1,
+        width: 2,
         "text-background-opacity": 1,
         "text-background-color": theme.background,
-        "line-color": theme.foreground,
-        "target-arrow-color": theme.foreground,
-        "target-arrow-shape": "vee",
+        "line-color": "#4a5d6b",
+        "target-arrow-color": "#4a5d6b",
+        "target-arrow-shape": "triangle-backcurve",
         "arrow-scale": 1,
         "curve-style": "bezier",
         label: "data(label)",
